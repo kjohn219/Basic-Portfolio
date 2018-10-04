@@ -5,47 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 <body>
 
-        <header>
-                <div>
-                    <!-- name -->
-                    <div id="name">
-                        <br> Katlin Johnson
-                    </div>
+    <header>
+        <div>
+            <!-- name -->
+            <div id="name">
+                <br> Katlin Johnson
+            </div>
                     
-                    <div class="links">
-                        <a href="index.html">About</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="portfolio.html">Portfolio</a>
-                    </div>
+            <div class="links">
+                <a href="index.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="portfolio.html">Portfolio</a>
+            </div>
                     
                  
-                </div>
+        </div>
             
-              </header>
+    </header>
             
             
-              <main>
-                <div>
+    <main>
+        <div>
                     
-                    <div class="home">
-                            <div class="content">
-                                <!--Heading o fparagrapgh-->
-                                <h1>Contact</h1>
+            <div class="home">
+                    <div class="content">
+                            <!--Heading o fparagrapgh-->
+                            <h1>Contact</h1>
                     
-                                <!--Body Content-->
-                                <p class="p1">
-                                    Hi, I was born and raised in Alpharetta Georgia. I never been once moved out of Georgia. Growing up I was always playing a sport. 
-                                    I really took to Softball, I played slow pitch up until 5th grade then transitioned into fast pitch. Once I was in 8th grade I completely
-                                    changed courses and started rowing. I joined AJRA and after school eveyrday I would carpool down to Roswell for practice. With having
-                                    practice 6 days a week and races at least once a month I unfortunately got burned out and did not row my senior year of high school.I 
-                                    ended up going to Kennesaw State University. It took a little while to decide on a major, but finally graduated with a Mathematics degree.</p>
-                
+                            <!--Body Contact-->
+                            <div class="container">
+                                <form action="action_page.php">
+                                      
+                                    <label for="fname">First Name</label><br>
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width: 100%;" class="block"><br>
+                                      
+                                    <label for="lname">Email</label><br>
+                                    <input type="text" id="lname" name="email" placeholder="Your email.." style="width: 100%;"class="block"><br>
+                                      
+                                    <label for="subject">Subject</label><br>
+                                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100; width:100%;"class="blocks"></textarea><br>
+                                      
+                                    <input type="submit" value="Submit">
+                                      
+                                </form>
                             </div>
+
+
                     </div>
-                </div>
-        </header>   
+            </div>
+        >/div>
+    </main>
+
+    <footer>
+        <div>
+            <!-- Grayfooter of page -->
+            <div class="footer">
+                <p> copyright@ </p>
+            </div> 
+        </div>
+    </footer>
+
 </body>
 </html>
