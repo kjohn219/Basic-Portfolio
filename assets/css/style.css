@@ -1,6 +1,3 @@
-/**{
-    box-sizing: border-box;
-}*/
 
 header {
     position: relative;
@@ -8,6 +5,7 @@ header {
     left: 0;
     margin: 0;
     width: 100%;
+    height: 67px;
     text-align: center;
     background: #ffffff;
 }
@@ -21,9 +19,10 @@ header {
     height: 50px;
     bottom: 0px;
     top:16px;
-    color: white;
+    color: #ffffff;
     text-align: center;
     background: #4aaaa5;
+    line-height: 47px;
 }
 
 .links a:first-child {
@@ -51,6 +50,12 @@ header {
 .links{
     position: relative;
     left:350px;
+    color: #777777;
+    
+}
+
+.links a:visited{
+    color: #777777;
 }
 
 body{
@@ -78,11 +83,19 @@ h1{
     width: 960px;
     height: 600px;
     padding: 5px 30px 5px 30px ;
+    box-sizing: border-box;
 }
 
 p{
     margin-bottom: 20px; 
     line-height: 28px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+
+.footer p{
+    margin-bottom: 20px; 
+    line-height: 50px;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -96,6 +109,7 @@ footer{
     border-top: 20px solid #4aaaa5;
     text-align: center;
     background-color: #666666;
+    
 }
 
 .container{
@@ -127,12 +141,15 @@ footer{
     position: relative;
     left: 0;
     width: 200px;
-    padding: 20;
+    padding: 200;
+    height: 30px;
     background-color: navy;
     color: white;
+    top: 200px;
     text-align: center;
-    top: 160px;
+    line-height: 30px;
 }
+
 img{
     height: 200px;
     width: 200px;
